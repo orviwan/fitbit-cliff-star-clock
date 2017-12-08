@@ -1,0 +1,6 @@
+<svg class="background">
+  <image href="bg.png" />
+  <text id="clockShadow" class="foreground" opacity="0.4" />
+  <text id="clockLabel" class="foreground" />
+  <image href="fg.png" />
+</svg>

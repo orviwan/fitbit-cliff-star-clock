@@ -1,0 +1,14 @@
+{
+  "fitbit": {
+    "appType": "clockface",
+    "appDisplayName": "Cliff Star",
+    "iconFile": "",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "i18n": {
+      "en": {
+        "name": "Cliff Star"
+      }
+    }
+  }
+}
