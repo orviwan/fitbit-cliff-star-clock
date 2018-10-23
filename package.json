@@ -1,14 +1,28 @@
 {
+  "name": "fitbit-cliff-star-clock",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~2.0.2",
+    "@fitbit/sdk-cli": "^1.0.2",
+    "fitbit-sdk-types": "^0.2.3"
+  },
   "fitbit": {
+    "appUUID": "11958cdd-7be5-4575-88f7-e75ad1a92744",
     "appType": "clockface",
-    "appDisplayName": "Cliff Star",
-    "iconFile": "",
-    "wipeColor": "",
+    "appDisplayName": "Fitbit Cliff Star Clock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
     "requestedPermissions": [],
-    "i18n": {
-      "en": {
-        "name": "Cliff Star"
-      }
-    }
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
   }
 }

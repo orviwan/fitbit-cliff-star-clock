@@ -1,4 +1,4 @@
-function mySettings(props) {
+function mySettings() {
   return (
     <Page>
          <Select
